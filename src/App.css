@@ -1,0 +1,153 @@
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.form-container {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-label {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.home-page-logo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.join-btn,
+.leave-btn {
+  background-color: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.join-btn:hover,
+.leave-btn:hover {
+  background: #2b824c;
+}
+
+.create-info {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.create-new-room {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.create-new-room:hover {
+  color: #2b824c;
+}
+
+.main-wrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-inner {
+  flex: 1;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.logo {
+  border: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logo-image {
+  height: 60px;
+}
+
+.leave-btn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 42px);
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+#realTimeEditor {
+  position: relative;
+}
+
+.copy-content {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 2;
+  cursor: pointer;
+}
